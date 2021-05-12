@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title> Casa das Juventudes</title>
+	<meta charset="utf-8">
+
+	<!-- Bootstrap -->
+	<link rel="stylesheet" type="text/css" href="src/bootstrap/css/bootstrap.css">
+	<script type="text/javascript" src="src/bootstrap/js/bootstrap.js"></script>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous"></script>
+
+	<!-- Ícones -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+		integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+	<link rel="shortcut icon" href="src/img/logo.png" type="image/png">
+
+	<!-- Efeito Deslizar -->
+	<script type="text/javascript" src="src/js/jquery-2.1.3.js"></script>
+	<script type="text/javascript">
+		$(window).load(function () {
+
+			var $doc = $('html, body');
+			$('.scrollSuave').click(function () {
+				$doc.animate({
+					scrollTop: $($.attr(this, 'href')).offset().top
+				}, 2000);
+				return false;
+			});
+		});
+
+	</script>
+
+	<!-- Normalize -->
+	<link rel="stylesheet" type="text/css" href="src/css/normalize.css">
+
+	<!-- Stylesheet -->
+	<link rel="stylesheet" type="text/css" href="src/css/style.css">
+
+	<!--[if IE]>
+			<script src="src/js/html5shiv.js"></script>
+		<![endif]-->
+
+					<style type="text/css">
+						*{
+							margin: 0;
+							padding: 0;
+						}
+					</style>
+
+</head>
+
+<body>
+	<header id="Start">
+		<div id="home">
+			<div id="menu">
+				<a href="index.html"><img id="logo" src="src/img/logo.png" alt="Coordenadoria de Juventudes"></a>
+				<span>
+					<a class="socialt" href="https://twitter.com/FnPrefeitura"><img src=""></a>
+					<a class="sociali"
+						href="https://www.instagram.com/explore/locations/197230190653915/prefeitura-municipal-de-feira-nova/"><img
+							src=""></a>
+					<a class="socialf"
+						href="https://www.facebook.com/Prefeitura-Municipal-de-Feira-Nova-1741520472833112/?jazoest=265100121118111118727376107487286979898516611145491061187566996611195851211021228680801131177572111101755011311958651001211121221141028710368697097656583895310449859770859811987987185738580828786109951001018354114538981"><img
+							src=""></a>
+				</span>
+				<nav>
+					<a href="#Start" id="m1" class="scrollSuave">Home</a>
+					<a href="#QuemSomos" id="m2" class="scrollSuave">Quem Somos</a>
+					<a href="#Equipe" id="m3" class="scrollSuave">Equipe</a>
+					<a href="#Contato" id="m4" class="scrollSuave">Contato</a>
+					<a href="blog.html" id="m5">Blog</a>
+					<a href="posts/insc2021.html" id="m5">INSCRIÇÕES</a>
+				</nav>
+			</div>
+		</div>
+		<div class="painel">
+			<img class="painel" src="src/img/painel.jpg" alt="Jovens">
+		</div>
+
+	</header>
+
+	<section id="QuemSomos" class="sect">
+		<!-- ------------------- Quem Somos ------------------- -->
+		<article class="arc">
+			<h1><span class="h1">A Casa das Juventudes</span></h1>
+			<p class="texto"><span>O </span>nosso objetivo é formar, capacitar e incluir jovens em suas diversas
+				expressões para que os mesmos tenham condições de pensar discutir e propor políticas públicas para as
+				juventudes do Município. A Casa das Juventudes tem seu fundamento na Política Pública das Juventudes e
+				busca atingir todas os grupos juvenis em suas diversas expressões culturais e sociais. A concepção de
+				juventude adotada concebe esta faixa geracional como sujeitos de direitos e agentes estratégicos de
+				desenvolvimento, com grande potencial para catalisação das grandes mudanças sociais.</p>
+		</article>
+	</section>
+
+	<section class="sect" id="Equipe">
+		<!-- ----------------- Equipe ------------------- -->
+		<article class="arc">
+			<h1><span class="h1">Equipe</span></h1>
+			<div class="equipe">
+
+				<span style="margin-left: 60px; background-color: rgba(30,144,255,0.3);" class="line">
+					<p>Prefeito do Município</p>
+					<img class="img" src="src/img/prefeito.png">
+					<p>Danilson Gonzaga</p>
+				</span><br>
+
+				<span class="line">
+					<p>Coordenadora de Juventudes</p>
+					<img class="img" src="src/img/f3.jpg">
+					<p>Jaqueline Oliveira</p>
+				</span><br>
+				<span style="margin-left: 60px;" class="line">
+					<p>Auxiliar Administrativo</p>
+					<img class="img" src="src/img/f2.jpg">
+					<p>Paulo Araújo</p>
+				</span><br>
+
+				<span class="line">
+					<p>Educador de Música</p>
+					<img class="img" src="src/img/f5.jpg">
+					<p>Manoel Junior</p>
+				</span><br>
+
+				<!--					<span style="margin-left: 60px;" class="line"><p>Educador de Esportes</p>
+						<img class="img" src="src/img/f6.jpg">
+						<p>Marcela Andrade</p>
+					</span><br>-->
+
+				<span style="margin-left: 60px;" class="line">
+					<p>Educador de Informática</p>
+					<img class="img" src="src/img/f7.jpg">
+					<p>Filipe Pereira</p>
+				</span><br>
+
+			</div>
+		</article>
+	</section>
+
+	<section id="Contato" class="sect" style="padding-bottom: 30px; clear: both;">
+		<!-- ----------------- Equipe ------------------- -->
+		<article class="arc">
+			<h1 align="center"><span class="h1">Mande sua Sugestão</span></h1><br>
+			<iframe
+				src="https://docs.google.com/forms/d/e/1FAIpQLSef7U1koDWaMD_qn-n_JzPzJ-R42fZQD5ctc4eoxsnYRsB8qQ/viewform?embedded=true"
+				width="800" height="900" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
+		</article>
+	</section>
+	<a href="#Start" class="seta scrollSuave">
+		<i class="fas fa-arrow-up fa-2x meu-float"></i>
+	</a>
+	<footer>
+		<div><span class="rodape">
+				<a class="socialf"
+					href="https://www.facebook.com/Prefeitura-Municipal-de-Feira-Nova-1741520472833112/?jazoest=265100121118111118727376107487286979898516611145491061187566996611195851211021228680801131177572111101755011311958651001211121221141028710368697097656583895310449859770859811987987185738580828786109951001018354114538981"><img
+						src=""></a>
+				<a class="sociali"
+					href="https://www.instagram.com/explore/locations/197230190653915/prefeitura-municipal-de-feira-nova/"><img
+						src=""></a>
+				<a class="socialt" href="https://twitter.com/FnPrefeitura"><img style="background-color: transparent;"
+						src=""></a>
+
+			</span>
+			<p class="black">Endereço:</p>
+			<p class="gray">Rua Joaquim Correia, 71 - Centro - Feira Nova-PE</p>
+			<p class="black">Email:</p>
+			<p class="gray">cajufn.2017@gmail.com</p>
+
+			<p class="copy">&copy Todos os direitos reservados. <br><span style="font-size: 16px;">Filipe Pereira</span>
+			</p>
+
+		</div>
+
+	</footer>
+
+</body>
+
+</html>
